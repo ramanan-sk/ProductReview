@@ -1,0 +1,37 @@
+{
+  "name": "tech_insight",
+  "version": "1.0.0",
+  "description": "Product Review Website built using MERN Stack",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrunknown3141/tech_insight.git"
+  },
+  "author": "Ramanan S K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrunknown3141/tech_insight/issues"
+  },
+  "homepage": "https://github.com/mrunknown3141/tech_insight#readme",
+  "dependencies": {
+    "@syncfusion/ej2-react-dropdowns": "^19.1.56",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
+    "concurrently": "^6.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.1",
+    "react-bootstrap": "^1.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
